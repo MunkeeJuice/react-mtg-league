@@ -1,0 +1,29 @@
+{
+  "first": 3,
+  "second": 1,
+  "third": 0,
+  "style": 2,
+  "players": [
+    {
+      "name": "Mark",
+      "first": 0,
+      "second": 1,
+      "third": 0,
+      "style": 0
+    },
+    {
+      "name": "Russ",
+      "first": 1,
+      "second": 0,
+      "third": 0,
+      "style": 1
+    },
+    {
+      "name": "Riley",
+      "first": 0,
+      "second": 0,
+      "third": 1,
+      "style": 0
+    }
+  ]
+}
