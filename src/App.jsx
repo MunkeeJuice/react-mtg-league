@@ -56,7 +56,7 @@ function App() {
 
     return (
         <div className={`flex flex-col items-center`}>
-            <div className={`text-3xl font-bold my-10`}>Magic The Gathering League</div>
+            <div className={`text-3xl text-center font-bold my-10`}>Magic The Gathering League</div>
             <div className="overflow-x-auto w-full">
                 <table className="table text-center w-full">
                     <thead>
@@ -87,8 +87,8 @@ function App() {
             </div>
             <div className={`mt-10 text-2xl font-bold`}>Rules</div>
             <div className={`text-center mt-2`}>
-                <p className={`mb-2`}>The first player to reach or exceed {scores.win_points} is the league champion.</p>
-                <p>
+                <p className={`mb-2 px-4`}>The first player to reach or exceed {scores.win_points} is the league champion.</p>
+                <p className={`px-4`}>
                     In the case of a tie the player with more style points is the winner.
                     If it is still a tie then the player with the most second places is the winner,
                     if it is still a tie at this point the player with the most third places is the winner.
