@@ -3,27 +3,31 @@
   "second": 1,
   "third": 0,
   "style": 2,
+  "win_points" : 20,
   "players": [
     {
       "name": "Mark",
       "first": 0,
       "second": 1,
       "third": 0,
-      "style": 0
+      "style": 0,
+      "starts" : true
     },
     {
       "name": "Russ",
       "first": 1,
       "second": 0,
       "third": 0,
-      "style": 1
+      "style": 1,
+      "starts" : false
     },
     {
       "name": "Riley",
       "first": 0,
       "second": 0,
       "third": 1,
-      "style": 0
+      "style": 0,
+      "starts" : false
     }
   ]
 }
