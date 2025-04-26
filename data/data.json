@@ -11,7 +11,7 @@
       "second": 2,
       "third": 0,
       "style": 0,
-      "leagues" : 0,
+      "leagues" : 3,
       "starts" : false
     },
     {
@@ -20,7 +20,7 @@
       "second": 0,
       "third": 0,
       "style": 2,
-      "leagues" : 0,
+      "leagues" : 1,
       "starts" : true
     },
     {
