@@ -8,24 +8,24 @@
     {
       "name": "Mark",
       "first": 0,
-      "second": 1,
+      "second": 2,
       "third": 0,
       "style": 0,
-      "starts" : true
+      "starts" : false
     },
     {
       "name": "Russ",
-      "first": 1,
+      "first": 2,
       "second": 0,
       "third": 0,
-      "style": 1,
-      "starts" : false
+      "style": 2,
+      "starts" : true
     },
     {
       "name": "Riley",
       "first": 0,
       "second": 0,
-      "third": 1,
+      "third": 3,
       "style": 0,
       "starts" : false
     }
