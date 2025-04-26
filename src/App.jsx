@@ -7,7 +7,7 @@ function App() {
     const [scores, setScores] = useState(null)
 
     useEffect(() => {
-        fetch('data/data.json')
+        fetch(`data/data.json?nocache=${Date.now()}`)
             .then(response => {
                 if (!response.ok) {
                     throw new Error('Network response was not ok');
@@ -49,6 +49,7 @@ function App() {
 
         if (pointsB !== pointsA) return pointsB - pointsA;       // Sort by score
         if (b.first !== a.first) return b.first - a.first;       // Then by firsts
+        if (b.style !== a.style) return b.style - a.style;       // Then by Style Points
         if (b.second !== a.second) return b.second - a.second;   // Then by seconds
         return b.third - a.third;                                // Then by thirds
     });
@@ -68,6 +69,7 @@ function App() {
                         <th>Style</th>
                         <th>Points</th>
                         <th>Games</th>
+                        <th>League Wins</th>
                     </tr>
                     </thead>
                     <tbody>
@@ -80,6 +82,7 @@ function App() {
                             <td>{player.style}</td>
                             <td>{calculatePoints(player, scores)}</td>
                             <td>{calculateGames(player)}</td>
+                            <td>{player.leagues}</td>
                         </tr>
                     ))}
                     </tbody>
@@ -89,7 +92,8 @@ function App() {
             <div className={`text-center mt-2`}>
                 <p className={`mb-2 px-4`}>The first player to reach or exceed {scores.win_points} is the league champion.</p>
                 <p className={`px-4`}>
-                    In the case of a tie the player with more style points is the winner.
+                    In the case of a tie the player with the most wins is the winner.
+                    If it is still a tie then the player with the most style points is the winner.
                     If it is still a tie then the player with the most second places is the winner,
                     if it is still a tie at this point the player with the most third places is the winner.
                 </p>
