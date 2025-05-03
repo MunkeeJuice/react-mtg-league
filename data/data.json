@@ -17,20 +17,20 @@
     {
       "name": "Russ",
       "first": 2,
-      "second": 0,
+      "second": 1,
       "third": 0,
       "style": 2,
       "leagues" : 1,
-      "starts" : true
+      "starts" : false
     },
     {
       "name": "Riley",
-      "first": 0,
+      "first": 1,
       "second": 0,
       "third": 2,
       "style": 0,
       "leagues" : 0,
-      "starts" : false
+      "starts" : true
     }
   ]
 }
