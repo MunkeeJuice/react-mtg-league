@@ -9,24 +9,24 @@
       "name": "Mark",
       "first": 2,
       "second": 2,
-      "third": 3,
+      "third": 4,
       "style": 0,
       "leagues" : 3,
-      "starts" : true
+      "starts" : false
     },
     {
       "name": "Russ",
-      "first": 4,
+      "first": 5,
       "second": 2,
       "third": 1,
       "style": 2,
       "leagues" : 1,
-      "starts" : false
+      "starts" : true
     },
     {
       "name": "Riley",
       "first": 1,
-      "second": 3,
+      "second": 4,
       "third": 3,
       "style": 0,
       "leagues" : 0,
