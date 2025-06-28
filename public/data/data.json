@@ -7,30 +7,30 @@
   "players": [
     {
       "name": "Mark",
-      "first": 2,
-      "second": 2,
-      "third": 4,
+      "first": 0,
+      "second": 0,
+      "third": 1,
       "style": 0,
       "leagues" : 3,
       "starts" : false
     },
     {
       "name": "Russ",
-      "first": 5,
-      "second": 2,
-      "third": 1,
-      "style": 2,
-      "leagues" : 1,
-      "starts" : true
+      "first": 1,
+      "second": 0,
+      "third": 0,
+      "style": 0,
+      "leagues" : 2,
+      "starts" : false
     },
     {
       "name": "Riley",
-      "first": 1,
-      "second": 4,
-      "third": 3,
+      "first": 0,
+      "second": 1,
+      "third": 0,
       "style": 0,
       "leagues" : 0,
-      "starts" : false
+      "starts" : true
     }
   ]
 }
