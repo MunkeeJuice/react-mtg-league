@@ -8,7 +8,7 @@
     {
       "name": "Mark",
       "first": 1,
-      "second": 1,
+      "second": 2,
       "third": 1,
       "style": 0,
       "leagues" : 3,
@@ -16,21 +16,21 @@
     },
     {
       "name": "Russ",
-      "first": 1,
+      "first": 2,
       "second": 0,
       "third": 2,
       "style": 1,
       "leagues" : 2,
-      "starts" : true
+      "starts" : false
     },
     {
       "name": "Riley",
       "first": 1,
       "second": 2,
-      "third": 0,
+      "third": 1,
       "style": 0,
       "leagues" : 0,
-      "starts" : false
+      "starts" : true
     }
   ]
 }
