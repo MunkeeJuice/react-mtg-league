@@ -7,7 +7,7 @@
   "players": [
     {
       "name": "Mark",
-      "first": 2,
+      "first": 3,
       "second": 6,
       "third": 1,
       "style": 0,
@@ -17,20 +17,20 @@
     {
       "name": "Russ",
       "first": 4,
-      "second": 0,
+      "second": 1,
       "third": 5,
       "style": 1,
       "leagues" : 2,
-      "starts" : true
+      "starts" : false
     },
     {
       "name": "Riley",
       "first": 3,
       "second": 3,
-      "third": 3,
+      "third": 4,
       "style": 0,
       "leagues" : 0,
-      "starts" : false
+      "starts" : true
     }
   ]
 }
