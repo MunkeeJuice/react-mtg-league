@@ -7,26 +7,26 @@
   "players": [
     {
       "name": "Mark",
-      "first": 3,
+      "first": 4,
       "second": 6,
       "third": 2,
       "style": 0,
       "leagues" : 3,
-      "starts" : true
+      "starts" : false
     },
     {
       "name": "Russ",
       "first": 4,
       "second": 2,
-      "third": 5,
+      "third": 6,
       "style": 1,
       "leagues" : 2,
-      "starts" : false
+      "starts" : true
     },
     {
       "name": "Riley",
       "first": 4,
-      "second": 3,
+      "second": 4,
       "third": 4,
       "style": 0,
       "leagues" : 0,
