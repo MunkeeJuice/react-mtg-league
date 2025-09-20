@@ -97,6 +97,7 @@ function App() {
                     If it is still a tie then the player with the most second places is the winner,
                     if it is still a tie at this point the player with the most third places is the winner.
                 </p>
+                <p className={`mb-2 px-4`}>Mana Burn - Players do not take damage due to excess mana, this has been added so that players cannot suicide to prevent an opponent gaining a style point.</p>
 
                 <div className={`text-center mt-8 mb-4 text-2xl font-bold`} >Points Breakdown</div>
 
